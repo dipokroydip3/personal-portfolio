@@ -3,9 +3,22 @@ import { Link } from "react-router-dom";
 
 const Projects = () => {
       return (
-            <div className="overflow-y-scroll h-[80vh]">
+            <div>
+                  <div data-aos="zoom-out-down" data-aos-duration="500">
+                  <div className="overflow-y-scroll h-[80vh]">
                   <h3 className="text-xl pb-3 ">My Projects</h3>
                   <div className="  grid gap-5 grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+                        <div className="bg-white h-fit  px-2 py-5 rounded-md">
+                              <div className="">
+                                    <img className="" src="https://i.ibb.co/QChdV6B/don.png" alt="" />
+                              </div>
+                              <h2 className="h-12">Donation Campaign </h2>
+                              <div className="flex justify-between items-center pt-3 px-3">
+                                    <Link target="_blank" to="https://github.com/programming-hero-web-course-4/b8a8-donation-campaign-dipokroydip3"><button className="bg-gray-200 py-1 px-3 rounded">Source</button></Link>
+                                    <Link target="_blank" to='https://rsfd53fgh.netlify.app'><button className="bg-gray-200 py-1 px-3 rounded">Preview</button></Link>
+                              </div>
+
+                        </div>
                         <div className="bg-white h-fit  px-2 py-5 rounded-md">
                               <div className="">
                                     <img className="" src="https://i.ibb.co/5sD1jKw/course-registration.png" alt="" />
@@ -70,6 +83,8 @@ const Projects = () => {
 
 
                   </div>
+            </div>
+            </div>
             </div>
       );
 };
