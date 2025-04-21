@@ -11,8 +11,8 @@ const MySelf = () => {
                   <div data-aos="fade-down-right" data-aos-duration="1000">
                         
                   <div className="bg-white border-2 flex flex-col  xl:h-[83vh] justify-center items-center rounded-xl py-5">
-                        <div>
-                              <img className="rounded-full hover:p-0 p-3 transition-all duration-300 w-[200px] h-[200px] md:h-[200px] md:w-[200px] xl:w-[270px] xl:h-[270px]" src="https://i.ibb.co/Zh6Jv4m/my-img-for-github-s.jpg" alt="" />
+                        <div className="overflow-hidden">
+                              <img className="rounded-full object-cover hover:p-0 p-3 transition-all duration-300 w-full h-full md:h-[200px md:w-[200px] xl:w-[270px] xl:h-[270px]" src="https://i.ibb.co.com/fz0S0ygP/Whats-App-Image-2025-04-22-at-00-44-01-692ed09c.jpg" alt="" />
 
                         </div>
 
